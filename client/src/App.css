@@ -1,0 +1,68 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 10%;
+}
+
+
+
+.homepage{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+  border: none;
+  padding: 1rem 2rem;
+  
+}
+
+.homepage input{
+
+  outline: none;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  padding: 0.4rem;
+}
+
+.homepage label{
+
+  display: block;
+}
+
+.homepage span{
+  display: block;
+    
+}
+
+.homepage button{
+  margin: 10% auto;
+  width: 100%;
+  padding: 0.2rem;
+  outline: none;
+  cursor:pointer;
+}
+
+.error{
+  color: red;
+  opacity: 1;
+}
+
+.done{
+  opacity: 0;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
